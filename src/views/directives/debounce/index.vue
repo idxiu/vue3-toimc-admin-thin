@@ -1,0 +1,16 @@
+<template>
+  <div class="p-4">
+    <t-card header="防抖指令示例" class="text-lg font-bold">
+      <div class="flex items-center justify-center mt-10 mb-10">
+        <el-button v-debounce="debounceClick" type="primary">防抖按钮 (0.5秒后执行)</el-button>
+      </div>
+    </t-card>
+  </div>
+</template>
+
+<script setup lang="ts">
+  import { ElMessage } from 'element-plus'
+  const debounceClick = () => {
+    ElMessage.success('防抖按钮触发事件')
+  }
+</script>

@@ -1,0 +1,153 @@
+// =================================
+// ==============custom==========
+// =================================
+
+:deep(.el-table th),
+:deep(.el-table td) {
+  padding: 16px 0;
+}
+
+:deep(.el-table th > .cell) {
+  font-size: 16px;
+}
+
+:deep(.el-table .cell) {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.toimc-custom-popper {
+  padding: 0 !important;
+  .el-tabs__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .el-tabs__item {
+    flex: 1;
+    text-align: center;
+    height: 45px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.rotate-icon {
+  transition: all 0.5s;
+
+  .active {
+    transform: rotate(180deg);
+  }
+}
+
+.el-rate__item {
+  @apply: "!flex";
+}
+
+.el-table__inner-wrapper {
+  &:before {
+    height: unset !important;
+  }
+}
+
+@layer base {
+  [type='text']:focus,
+  [type='email']:focus,
+  [type='url']:focus,
+  [type='password']:focus,
+  [type='number']:focus,
+  [type='date']:focus,
+  [type='datetime-local']:focus,
+  [type='month']:focus,
+  [type='search']:focus,
+  [type='tel']:focus,
+  [type='time']:focus,
+  [type='week']:focus,
+  [multiple]:focus,
+  textarea:focus,
+  select:focus {
+    --tw-ring-color: unset !important;
+    --tw-ring-offset-shadow: unset !important;
+    --tw-ring-shadow: unset !important;
+  }
+
+  // =================================
+  // ==============global==========
+  // =================================
+  html,
+  body,
+  #app {
+    height: 100%;
+    width: 100%;
+    overflow: visible !important;
+    overflow-x: hidden !important;
+    color: var(--el-text-color-primary);
+  }
+
+  input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px white inset !important;
+  }
+
+  :-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s !important;
+  }
+
+  html {
+    overflow: hidden;
+    text-size-adjust: 100%;
+  }
+
+  a:focus,
+  a:active,
+  input:focus,
+  button,
+  div,
+  svg,
+  span {
+    outline: none !important;
+  }
+
+  // =================================
+  // ==============scrollbar==========
+  // =================================
+
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 8px;
+  }
+
+  // ::-webkit-scrollbar-track {
+  //   background: transparent;
+  // }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(0 0 0 / 5%);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    // background: rgba(0, 0, 0, 0.6);
+    background-color: rgb(144 147 153 / 30%);
+    // background-color: rgba(144, 147, 153, 0.3);
+    border-radius: 2px;
+    box-shadow: inset 0 0 6px rgb(0 0 0 / 20%);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: $border-color-dark;
+  }
+}
+
+@layer utilities {
+  .wh-full {
+    @apply w-full h-full;
+  }
+  .f-center {
+    @apply flex justify-center items-center;
+  }
+  .f-between {
+    @apply flex justify-between items-center;
+  }
+}

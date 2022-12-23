@@ -1,0 +1,222 @@
+{
+  "Header": {
+    "CustomHeader": {
+      "quit": "退出"
+    }
+  },
+  "menu": {
+    "home": "首页",
+    "overview": "概览",
+    "dashboard": "看板",
+    "component": {
+      "title": "组件",
+      "icons": {
+        "title": "组件",
+        "icon": "图标",
+        "element": "Element图标",
+        "iconify": "Iconify图标集",
+        "icon-picker": "图标选择器",
+        "svg": "svg图标"
+      },
+      "form": {
+        "title": "表单",
+        "basic": "基础表单",
+        "schema": "表单Schema写法",
+        "dom": "表单DOM写法"
+      },
+      "table": {
+        "title": "表格",
+        "basic": "基础表格"
+      },
+      "select": {
+        "title": "选择器",
+        "area": "省市区选择器",
+        "city": "城市选择器"
+      },
+      "menu": {
+        "title": "菜单",
+        "dropdown": "下拉菜单"
+      },
+      "dynamic": {
+        "title": "动态展示",
+        "trends": "趋势指示",
+        "progress": "动态进度条",
+        "numbers": "动态数字",
+        "slider": "滑块",
+        "waterfall": "瀑布流",
+        "step-form": "分步表单"
+      },
+      "notice": {
+        "title": "通知&分享",
+        "notice": "通知菜单",
+        "qrcode": "二维码",
+        "copy": "复制"
+      },
+      "function": {
+        "title": "功能",
+        "transition": "过渡动画",
+        "crop": "图片裁剪",
+        "download": "文件下载",
+        "print": "打印",
+        "i18n": "国际化",
+        "watermark": "水印",
+        "copy-image": "复制图片"
+      },
+      "editor": {
+        "title": "编辑器",
+        "toast-ui": "ToastUI",
+        "vditor": "Vditor",
+        "milkdown": "MilkDown"
+      },
+      "display": {
+        "title": "展示",
+        "desc": "详情面板",
+        "card": "卡片",
+        "calendar": "日历",
+        "verify": "验证组件",
+        "avatar": "头像列表"
+      },
+      "small-comp": {
+        "title": "小组件",
+        "calendar": "日历卡片",
+        "weather": "天气",
+        "countDown": "倒计时"
+      },
+      "password-comp": {
+        "title": "密码强度",
+        "password": "密码强度"
+      },
+      "player": {
+        "audio": "音频播放器",
+        "video": "视频播放器"
+      }
+    },
+    "directive": {
+      "directive": "自定义指令",
+      "copyDirective": "复制指令",
+      "debounceDirective": "防抖指令",
+      "throttleDirective": "节流指令",
+      "draggableDirective": "拖拽指令",
+      "longPressDirective": "长按指令",
+      "waterMarkDirective": "水印指令"
+    },
+    "pages": {
+      "title": "页面",
+      "form": {
+        "title": "表单页",
+        "default": "默认表单页"
+      },
+      "detail": {
+        "title": "详情页",
+        "basic": "基础详情页",
+        "senior": "高级详情页"
+      },
+      "result": {
+        "title": "结果页",
+        "success": "成功页",
+        "fail": "失败页"
+      },
+      "users": {
+        "title": "个人中心",
+        "user": "个人页",
+        "settings": "设置页"
+      },
+      "errors": {
+        "title": "异常页",
+        "default": "默认异常页"
+      },
+      "lists": {
+        "title": "列表页"
+      },
+      "excel": "Excel处理",
+      "list": {
+        "card": "卡片列表",
+        "gallery": "画廊列表",
+        "basic": "标准列表"
+      }
+    },
+    "charts": {
+      "title": "图表",
+      "baidu": "百度地图",
+      "amap": "高德地图",
+      "tencent": "腾讯地图",
+      "google": "谷歌地图",
+      "echarts": "Echarts"
+    },
+    "nest-menus": {
+      "title": "多级菜单",
+      "menu1": "Menu1",
+      "menu1-1": "Menus1-1",
+      "menu1-1-1": "Menus1-1-1",
+      "menu1-2": "Menu1-2",
+      "menu2": "Menu2"
+    },
+    "iframe": {
+      "title": "外部页面",
+      "iframe": "内嵌页面",
+      "external": "外链页面"
+    },
+    "system": {
+      "title": "系统管理",
+      "user": "用户管理",
+      "role": "角色管理",
+      "menu": "菜单管理",
+      "department": "部门管理",
+      "dict": "数据字典",
+      "logs": "系统日志"
+    },
+    "guide": {
+      "title": "引导页",
+      "guide": "引导页"
+    },
+    "about": {
+      "title": "关于",
+      "about-us": "关于我们"
+    }
+  },
+  "components": {
+    "tools": {
+      "i18n": {
+        "card-title": "国际化示例",
+        "test": "测试文字1",
+        "5zpfmf": "测试文字2",
+        "c2am9h": "方法"
+      },
+      "splitpanel": "切割面板"
+    },
+    "editor": {
+      "milkdown": {
+        "heading": "标题",
+        "large-heading": "一级标题",
+        "medium-heading": "二级标题",
+        "small-heading": "三级标题",
+        "plain-text": "正文"
+      }
+    },
+    "verify": {
+      "error": "验证失败！",
+      "time": "验证校验成功,耗时{time}秒！",
+      "redoTip": "点击图片可刷新",
+      "dragText": "请按住滑块拖动",
+      "successText": "验证通过"
+    },
+    "player": {
+      "audio": {
+        "next": "下一首",
+        "prev": "上一首",
+        "play": "播放",
+        "volume": "音量",
+        "pause": "暂停",
+        "muted": "静音",
+        "unmuted": "取消静音",
+        "rate": "倍速"
+      },
+      "video": {
+        "next": "下一个",
+        "prev": "上一个",
+        "loop": "循环"
+      }
+    }
+  },
+  "test": "测试文字"
+}

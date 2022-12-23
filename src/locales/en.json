@@ -1,0 +1,222 @@
+{
+  "Header": {
+    "CustomHeader": {
+      "quit": "Exit"
+    }
+  },
+  "menu": {
+    "home": "Home",
+    "overview": "Overview",
+    "dashboard": "Dashboard",
+    "component": {
+      "title": "Components",
+      "display": {
+        "calendar": "Calendar",
+        "card": "Card",
+        "desc": "Details panel",
+        "title": "Exhibit",
+        "avatar": "Avatar list",
+        "verify": "Validate components"
+      },
+      "dynamic": {
+        "numbers": "Dynamic numbers",
+        "progress": "Dynamic progress bar",
+        "title": "Dynamic display",
+        "trends": "Trend indicator",
+        "slider": "Slider",
+        "waterfall": "Waterfalls flow",
+        "step-form": "step-by-step form"
+      },
+      "editor": {
+        "title": "Editor",
+        "toast-ui": "ToastUI",
+        "vditor": "Vditor",
+        "milkdown": "MilkDown"
+      },
+      "form": {
+        "basic": "Basic Form",
+        "dom": "Form DOM writing",
+        "schema": "Form Schema writing",
+        "title": "Form"
+      },
+      "function": {
+        "crop": "Image Cropping",
+        "download": "Document Dowload",
+        "i18n": "Globalization",
+        "print": "Print",
+        "title": "Function",
+        "transition": "Transition Animation",
+        "watermark": "Watermark",
+        "copy-image": "copy image"
+      },
+      "icons": {
+        "element": "Element icon",
+        "icon": "Icon",
+        "icon-picker": "Icon Picker",
+        "iconify": "Iconify icon set",
+        "svg": "Svg Icon",
+        "title": "Components"
+      },
+      "menu": {
+        "dropdown": "Drop-down menu",
+        "title": "Menu"
+      },
+      "notice": {
+        "copy": "Copy",
+        "notice": "Notification menu",
+        "qrcode": "QR code",
+        "title": "Notify"
+      },
+      "select": {
+        "area": "Province City Selector",
+        "city": "City ​​Selector",
+        "title": "Selector"
+      },
+      "table": {
+        "basic": "Basic Form",
+        "title": "Sheet"
+      },
+      "small-comp": {
+        "calendar": "CalendarCard",
+        "title": "Widgets",
+        "weather": "Weather",
+        "countDown": "CountDown"
+      },
+      "password-comp": {
+        "title": "Password strength",
+        "password": "StrengthMeter"
+      },
+      "player": {
+        "audio": "Audio Player",
+        "video": "Video Player"
+      }
+    },
+    "directive": {
+      "directive": "Directive",
+      "copyDirective": "CopyDirective",
+      "debounceDirective": "DebounceDirective",
+      "throttleDirective": "ThrottleDirective",
+      "draggableDirective": "DraggableDirective",
+      "longPressDirective": "LongPressDirective",
+      "waterMarkDirective": "WaterMarkDirective"
+    },
+    "pages": {
+      "title": "Pages",
+      "detail": {
+        "title": "Details page",
+        "basic": "Basic details page",
+        "senior": "Senior details page"
+      },
+      "errors": {
+        "default": "Default Exception ",
+        "title": "Exception Page"
+      },
+      "form": {
+        "default": "Default form page",
+        "title": "Form Page"
+      },
+      "lists": {
+        "title": "List Page"
+      },
+      "result": {
+        "title": "Results Page",
+        "success": "Success Page",
+        "fail": "Fail Page"
+      },
+      "excel": "Excel processing",
+      "users": {
+        "settings": "Settings page",
+        "title": "personal center",
+        "user": "personal page"
+      },
+      "list": {
+        "card": "listCard",
+        "gallery": "galleryList",
+        "basic": "basicList"
+      }
+    },
+    "charts": {
+      "amap": "Amap",
+      "baidu": "Baidu Map",
+      "echarts": "Echarts",
+      "google": "Google Map",
+      "tencent": "Tencent Map",
+      "title": "Charts"
+    },
+    "nest-menus": {
+      "title": "Multi-level Menu",
+      "menu1": "Menu1",
+      "menu1-1": "Menus1-1",
+      "menu1-1-1": "Menus1-1-1",
+      "menu1-2": "Menu1-2",
+      "menu2": "Menu2"
+    },
+    "iframe": {
+      "external": "External Link",
+      "iframe": "Inline Page",
+      "title": "External Page"
+    },
+    "system": {
+      "department": "Departments",
+      "logs": "Logs",
+      "menu": "Menus",
+      "role": "Roles",
+      "title": "System Settings",
+      "user": "Users",
+      "dict": "Dictionaries"
+    },
+    "guide": {
+      "guide": "Guide",
+      "title": "Guide"
+    },
+    "about": {
+      "about-us": "AboutUs",
+      "title": "About"
+    }
+  },
+  "components": {
+    "tools": {
+      "i18n": {
+        "card-title": "Examples of internationalisation",
+        "test": "test words1",
+        "5zpfmf": "test words 2",
+        "c2am9h": "xxxx"
+      },
+      "splitpanel": "Split Panel"
+    },
+    "editor": {
+      "milkdown": {
+        "heading": "Title",
+        "large-heading": "Large Heading",
+        "medium-heading": "Medium Heading",
+        "small-heading": "Small Heading",
+        "plain-text": "Plain Text"
+      }
+    },
+    "verify": {
+      "dragText": "Please hold down the slider and drag",
+      "error": "verification failed!",
+      "redoTip": "Click image to refresh",
+      "successText": "Verified",
+      "time": "The verification is successful, it takes {time} seconds!"
+    },
+    "player": {
+      "audio": {
+        "next": "next item",
+        "prev": "prev item",
+        "play": "play",
+        "pause": "pause",
+        "volume": "volume",
+        "muted": "muted",
+        "unmuted": "unmute",
+        "rate": "rate"
+      },
+      "video": {
+        "next": "next item",
+        "prev": "prev item",
+        "loop": "loop"
+      }
+    }
+  },
+  "test": "test"
+}
