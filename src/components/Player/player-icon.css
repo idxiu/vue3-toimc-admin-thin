@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'player'; /* Project id 3449991 */
+  src: url('//at.alicdn.com/t/font_3449991_3nnupiteqn6.woff2?t=1654427449842') format('woff2'),
+    url('//at.alicdn.com/t/font_3449991_3nnupiteqn6.ttf?t=1654427449842') format('truetype');
+}
+
+.player {
+  font-family: 'player' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.player-kuaitui:before {
+  content: '\e68e';
+}
+
+.player-kuaijin:before {
+  content: '\e68f';
+}
+
+.player-prev:before {
+  content: '\e691';
+}
+
+.player-next:before {
+  content: '\e692';
+}
+
+.player-loop-4:before {
+  content: '\e6a0';
+}
+
+.player-loop-1:before {
+  content: '\e6a1';
+}
+
+.player-loop-3:before {
+  content: '\e6a2';
+}
+
+.player-loop-2:before {
+  content: '\e6a3';
+}
